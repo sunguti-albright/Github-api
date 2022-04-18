@@ -19,12 +19,12 @@ export class SearchbarComponent implements OnInit {
   username: any;
   repo: any ;
 
-  SearchUsers() {
-    this.userService.UpdateUser(this.username);
-    this.userService.SearchGithubUsers().subscribe((repo) => {
-      this.githubProfile = repo;
-      console.log(this.githubProfile);
-    });
+  // SearchUsers() {
+  //   this.userService.UpdateUser(this.username);
+  //   this.userService.SearchGithubUsers().subscribe((repo) => {
+  //     this.githubProfile = repo;
+  //     console.log(this.githubProfile);
+  //   });
 
     // this.userService.getPublicRepos().subscribe((data) => {
     //   (this.repo = data), console.log(this.repo);
@@ -36,13 +36,13 @@ export class SearchbarComponent implements OnInit {
 
   // get name() { return this.form.get('name'); }
 
-  constructor(private userService: ApiService) {}
+  // constructor(private userService: ApiService) {}
 
-  ngOnInit(): void {
-    this.userService.SearchGithubUsers().subscribe((repo) => {
-      this.githubProfile = repo;
-      console.log(this.githubProfile);
-    });
+  // ngOnInit(): void {
+  //   this.userService.SearchGithubUsers().subscribe((repo) => {
+  //     this.githubProfile = repo;
+  //     console.log(this.githubProfile);
+  //   });
 
     // this.userService.getPublicRepos().subscribe((data) => {
     //   (this.repo = data), console.log(this.repo);
