@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #9be9f39a;
+    /* font-family: 'Kaushan Script', cursive; */
+font-family: 'Libre Baskerville', serif;
+/* font-family: 'Parisienne', cursive; */
+}
+color{
+    color: #0d0d0d;
+}
