@@ -36,7 +36,7 @@ export class SearchbarComponent implements OnInit {
 
   // get name() { return this.form.get('name'); }
 
-  // constructor(private userService: ApiService) {}
+  constructor(private userService: ApiService) {}
 
   // ngOnInit(): void {
   //   this.userService.SearchGithubUsers().subscribe((repo) => {
