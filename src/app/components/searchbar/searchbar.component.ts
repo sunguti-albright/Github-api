@@ -38,11 +38,11 @@ export class SearchbarComponent implements OnInit {
 
   constructor(private userService: ApiService) {}
 
-  // ngOnInit(): void {
-  //   this.userService.SearchGithubUsers().subscribe((repo) => {
-  //     this.githubProfile = repo;
-  //     console.log(this.githubProfile);
-  //   });
+  ngOnInit(): void {
+    this.userService.SearchGithubUsers().subscribe((repo) => {
+      this.githubProfile = repo;
+      console.log(this.githubProfile);
+    });
 
     // this.userService.getPublicRepos().subscribe((data) => {
     //   (this.repo = data), console.log(this.repo);
