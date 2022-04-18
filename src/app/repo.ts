@@ -1,4 +1,4 @@
-// export interface Repo {
-//     name: string;
-//     description: string;
-// }
+export interface Repo {
+    name: string;
+    description: string;
+}
