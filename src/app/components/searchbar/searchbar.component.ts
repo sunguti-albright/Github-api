@@ -44,8 +44,8 @@ export class SearchbarComponent implements OnInit {
       console.log(this.githubProfile);
     });
 
-    // this.userService.getPublicRepos().subscribe((data) => {
-    //   (this.repo = data), console.log(this.repo);
-    // });
+    this.userService.getPublicRepos().subscribe((data) => {
+      (this.repo = data), console.log(this.repo);
+    });
   }
 }
