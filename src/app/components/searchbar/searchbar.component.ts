@@ -32,7 +32,7 @@ export class SearchbarComponent implements OnInit {
     
   }
 
-  // name = new FormControl('', Validators.required);
+  name = new FormControl('', Validators.required);
 
   // get name() { return this.form.get('name'); }
 
