@@ -13,17 +13,17 @@ export class ApiService {
   GIT_API_URL: string = 'https://api.github.com/users/';
   constructor(private http: HttpClient) {}
 
-//   SearchGithubUsers(): Observable<User> {
-//     return this.http.get<User>(this.GIT_API_URL + this.username);
-//   }
-//   // getUsers(): Observable<User> {
-//   //   return this.http.get<User>(this.GIT_API_URL + this.username);
-//   // }
+  SearchGithubUsers(): Observable<User> {
+    return this.http.get<User>(this.GIT_API_URL + this.username);
+  }
+  // getUsers(): Observable<User> {
+  //   return this.http.get<User>(this.GIT_API_URL + this.username);
+  // }
 
-//   getPublicRepos(): Observable<Repo> {
-//     return this.http.get<Repo>(this.GIT_API_URL + this.username + '/repos');
-//   }
-//   UpdateUser(githubUser: string) {
-//     this.username = githubUser;
-//   }
-// }
+  getPublicRepos(): Observable<Repo> {
+    return this.http.get<Repo>(this.GIT_API_URL + this.username + '/repos');
+  }
+  UpdateUser(githubUser: string) {
+    this.username = githubUser;
+  }
+}
