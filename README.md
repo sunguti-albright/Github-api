@@ -85,4 +85,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
  
-
+ ## Authors Info
+ 
+ * Slack Profile - [Albright Sunguti](https://moringaclassroom.slack.com/team/U032HD2N1BR)
+ 
+ * Linked - [Albright Sunguti](https://www.linkedin.com/in/albright-sunguti-405102216/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BNh2x%2Bvb8SCC4Lxni8rynqg%3D%3D)
+ 
+ * Twitter [Albright Sunguti](@bright_sunguti)
