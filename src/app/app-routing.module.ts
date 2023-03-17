@@ -7,8 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 const routes: Routes = [
  {path:'home',component: HomeComponent},
   {path:'about',component: AboutComponent},
+  // {path:'contact', component:ContactComponent}
   
-
+//redirect index page to home page
   {path:'',redirectTo:'/home',pathMatch:'full'}
 ];
 

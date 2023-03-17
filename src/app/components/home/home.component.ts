@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import{User} from '../../user';
-import{Repo} from '../../repo';
+import{User} from '../../models/user';
+import{Repo} from '../../models/repo';
 
 @Component({
   selector: 'app-home',

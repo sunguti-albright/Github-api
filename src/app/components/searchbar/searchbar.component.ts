@@ -3,9 +3,9 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
-import { ApiService } from 'src/app/api.service';
-import { User } from '../../user';
-import { Repo } from '../../repo';
+import { ApiService } from 'src/app/services/api.service';
+import { User } from '../../models/user';
+import { Repo } from '../../models/repo';
 import { ApiInterface } from './api.interface';
 
 @Component({
@@ -16,8 +16,8 @@ import { ApiInterface } from './api.interface';
 export class SearchbarComponent implements OnInit {
   githubProfile!: User;
 
-  username: any;
-  repo: any ;
+  username: string = '';
+  repo:any ;
 
   SearchUsers() {
     this.userService.UpdateUser(this.username);
